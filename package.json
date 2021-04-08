@@ -6,8 +6,8 @@
   "dependencies": {
     "@crowdin/crowdin-api-client": "^1.8.16",
     "@ethersproject/experimental": "^5.0.1",
-    "@pancakeswap-libs/sdk": "1.0.1",
-    "@pancakeswap-libs/uikit": "goosedefi/goose-uikit",
+    "@pancakeswap-libs/sdk": "^1.0.1",
+    "@pancakeswap-libs/uikit": "achemistdefi/uikit",
     "@popperjs/core": "^2.4.4",
     "@reach/dialog": "^0.10.3",
     "@reach/portal": "^0.10.3",
@@ -65,7 +65,8 @@
     "redux-localstorage-simple": "^2.3.1",
     "styled-components": "^5.2.1",
     "typescript": "^4.1.3",
-    "universal-cookie": "^4.0.4"
+    "universal-cookie": "^4.0.4",
+    "yarn": "^1.22.10"
   },
   "devDependencies": {
     "@pancakeswap-libs/eslint-config-pancake": "1.0.0",

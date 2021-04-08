@@ -4,92 +4,100 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://www.goosedefi.com/'
+    href: 'https://www.alchemistdefi.com/',
   },
   {
     label: 'Trade',
     icon: 'TradeIcon',
-    initialOpenState: true,
     items: [
       {
         label: 'Exchange',
-        href: '/swap'
+        href: 'https://exchange.alchemistdefi.com/#/swap',
       },
       {
         label: 'Liquidity',
-        href: '/pool'
-      }
-    ]
+        href: 'https://exchange.alchemistdefi.com/#/pool',
+      },
+    ],
   },
   {
-    label: 'Farms',
-    icon: 'FarmIcon',
-    href: 'https://www.goosedefi.com/farms'
+    label: 'Recipes',
+    icon: 'RecipeIcon',
+    href: 'https://www.alchemistdefi.com/farms',
   },
   {
-    label: 'Nests',
+    label: 'Spells',
+    icon: 'SpellIcon',
+    href: 'https://www.alchemistdefi.com/nests',
+  },
+  {
+    label: 'Transmutation',
     icon: 'PoolIcon',
-    href: 'https://www.goosedefi.com/nests'
+    href: 'https://www.aurum.alchemistdefi.com/vessels',
   },
+  {
+    label: 'MIST Referrals',
+    icon: 'GroupsIcon',
+    href: 'https://www.alchemistdefi.com/referrals',
+  },
+  {
+    label: 'MIST Price Chart',
+    icon: 'ChartIcon',
+    href: 'https://poocoin.app/tokens/0x6f8fe12cc34398d15b7d5a5ba933e550da1d099f',
+  },
+  {
+    label: 'Doc',
+    icon: 'DocIcon',
+    href: 'https://alchemist-defi.gitbook.io/alchemist-defi/',
+  },
+  {
+    label: 'MIST Contract',
+    icon: 'ContractIcon',
+    href: 'https://bscscan.com/address/0x6f8fe12cc34398d15b7d5a5ba933e550da1d099f',
+  },
+  {
+    label: 'Burning Mist',
+    icon: 'FireIcon',
+    href: 'https://alchemist-defi.gitbook.io/alchemist-defi/automated-burning-mechanism',
+  },
+  {
+    label: 'Alchemist\'s Genie',
+    icon: 'GenieIcon',
+    href: 'https://alchemistdefi.medium.com',
+  },
+
+  // {
+  //   label: 'Pools',
+  //   icon: 'PoolIcon',
+  //   href: '/pools',
+  // },
   // {
   //   label: 'Lottery',
   //   icon: 'TicketIcon',
-  //   href: 'https://www.goosedefi.com/lottery'
+  //   href: '/lottery',
   // },
-  {
-    label: 'Info',
-    icon: 'InfoIcon',
-    items: [
-      {
-        label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6',
-      },
-      {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/goose-finance',
-      },
-      {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/goose-finance/',
-      },
-      {
-        label: 'AstroTools',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
-      },
-    ]
-  },
+  // {
+  //   label: 'NFT',
+  //   icon: 'NftIcon',
+  //   href: '/nft',
+  // },
   {
     label: 'More',
     icon: 'MoreIcon',
     items: [
       {
-        label: "Github",
-        href: "https://github.com/goosedefi/",
+        label: 'Github',
+        href: 'https://github.com/achemistdefi/',
       },
       {
-        label: "Docs",
-        href: "https://goosedefi.gitbook.io/goose-finance/",
+        label: 'Docs',
+        href: 'https://alchemist-defi.gitbook.io/alchemist-defi/',
       },
       {
-        label: "Blog",
-        href: "https://goosefinance.medium.com/",
+        label: 'Blog',
+        href: 'https://alchemistdefi.medium.com',
       },
     ],
-  },
-  {
-    label: 'Partnerships/IFO',
-    icon: 'GooseIcon',
-    href: 'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
-  },
-  {
-    label: 'Audit by Hacken',
-    icon: 'AuditIcon',
-    href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
-  },
-  {
-    label: 'Audit by CertiK',
-    icon: 'AuditIcon',
-    href: 'https://certik.org/projects/goose-finance',
   },
 ]
 

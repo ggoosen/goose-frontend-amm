@@ -11,9 +11,24 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
+      "name": "AlchemistDefi Aurum",
+      "symbol": "AURUM",
+      "address": "0x49207BAA3a7332F0716788aa57B088D499bcc104",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "/images/coins/AURUM.png"
+    },
+    {
       "name": "Goose Golden Egg",
       "symbol": "EGG",
       "address": "0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6",
+      "chainId": 56,
+      "decimals": 18
+    },
+    {
+      "name": "Alchemist",
+      "symbol": "MIST",
+      "address": "0x6f8FE12CC34398d15b7D5A5BA933E550DA1D099f",
       "chainId": 56,
       "decimals": 18
     },
